@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_itrem_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_personagem","path":"objects/Obj_personagem/Obj_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_barreira",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_itrem_1",
+  "name":"Obj_barreira",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"item_1",
-    "path":"sprites/item_1/item_1.yy",
+    "name":"Spr_barreira",
+    "path":"sprites/Spr_barreira/Spr_barreira.yy",
   },
   "spriteMaskId":null,
   "visible":true,

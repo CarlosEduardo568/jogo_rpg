@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
-    "path":"folders/Linhas do tempo/Objetos.yy",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -7,17 +7,19 @@
 	velh = (_dir - _esq) * vel
 	velv = (_baixo - _cima) * vel
 	
+if(place_meeting(x + velh, y, Obj_barreira))
+{
+	velh =0;
+}
+if(place_meeting(x , y + velv, Obj_barreira))
+{
+	velv =0;
+}
 	x += velh;
 	y += velv;
 	
 //dash 
 var bot_e =  keyboard_check(ord("E"))
-alarm[1] = 60
-if alarm[1] == 0
-{
-	alarm[0] = 60
-		pode_dash = false
-}
 
 if (pode_dash)
 {
