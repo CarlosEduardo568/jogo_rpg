@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_itrem_1",
+  "%Name":"Obj_hub",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_personagem","path":"objects/Obj_personagem/Obj_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_itrem_1",
+  "name":"Obj_hub",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,11 +28,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_item_1",
-    "path":"sprites/spr_item_1/spr_item_1.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
