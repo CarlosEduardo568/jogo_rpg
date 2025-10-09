@@ -45,6 +45,8 @@
     {"id":{"name":"Obj_personagem","path":"objects/Obj_personagem/Obj_personagem.yy",},},
     {"id":{"name":"Menu_inicial","path":"rooms/Menu_inicial/Menu_inicial.yy",},},
     {"id":{"name":"r_jogo","path":"rooms/r_jogo/r_jogo.yy",},},
+    {"id":{"name":"scr_inimigo_1","path":"scripts/scr_inimigo_1/scr_inimigo_1.yy",},},
+    {"id":{"name":"scr_personagem","path":"scripts/scr_personagem/scr_personagem.yy",},},
     {"id":{"name":"Spr_barreira","path":"sprites/Spr_barreira/Spr_barreira.yy",},},
     {"id":{"name":"Spr_inimigo","path":"sprites/Spr_inimigo/Spr_inimigo.yy",},},
     {"id":{"name":"spr_item_1","path":"sprites/spr_item_1/spr_item_1.yy",},},

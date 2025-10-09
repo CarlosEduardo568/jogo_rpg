@@ -1,24 +1,7 @@
 // movimentação
-	var _dir = keyboard_check(ord("D"))
-	var _esq = keyboard_check(ord("A"))
-	var _baixo = keyboard_check(ord("S"))
-	var _cima = keyboard_check(ord("W"))
-
-	velh = (_dir - _esq) * vel
-	velv = (_baixo - _cima) * vel
-	
-if(place_meeting(x + velh, y, Obj_barreira))
-{
-	velh =0;
-}
-if(place_meeting(x , y + velv, Obj_barreira))
-{
-	velv =0;
-}
-	x += velh;
-	y += velv;
-	
+script_execute(estado);
 //dash 
+/*
 var bot_e =  keyboard_check(ord("E"))
 
 if (pode_dash)
